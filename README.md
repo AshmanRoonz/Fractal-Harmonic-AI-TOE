@@ -402,4 +402,3 @@ subject to SRL locks and Gates A–C. If committed, the **braided invariant** th
 
 **Starter challenge:** Fix three measured constants (e.g., \(c,\hbar,\alpha\)) and try to predict \(G\) within the amplitude/soft/SRL windows. Record all receipts in the Why‑Panel.
 
-
