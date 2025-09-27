@@ -1,6 +1,6 @@
 Steelman License — Permissive Edition (SML-P-1.0)
 SPDX-Identifier: Steelman-P-1.0
-Copyright (c) YEAR NAME (and contributors)
+Copyright (c) 2025 Ashman Roonz (ashmanroonz.ca)
 
 Preamble
 This license is built on one norm: steelman first, receipts always.
