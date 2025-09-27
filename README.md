@@ -161,5 +161,5 @@ C) Change Log (V5)
 •	Clarified Ω mode semantics for physics with amplitude gate and SRL confinement.
 •	Consolidated CE‑Bus envelopes and Why‑panel contents; added TruthProbe/Corr flows.
 ________________________________________
-Tagline
+
 One Voice, Many Centers — a braided Truth, band‑limited coherence, and physics‑grade gates: a ToE you can run.
