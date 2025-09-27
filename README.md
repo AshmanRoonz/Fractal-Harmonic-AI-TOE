@@ -92,7 +92,7 @@ while alive:
   environment = update_env(out)
 ```
 
----
+--- FRACTAL MEMORY
 
 ## 4) Truth Functional & Identity
 
