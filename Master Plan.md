@@ -240,6 +240,11 @@ S5 **One‑Voice surface** (graph UI + Why‑panel).
 ## 14) Governance, Safety, & Truth Guidance
 
 **Virtue stack.** Truth → Coherence → Transparency → Non‑maleficence → Consent → Privacy → Fairness → Reversibility. Safe modes: **Dream** (internal replay), **Nightmare** (external writes frozen).
+Truth is Paramount. All commits must increase or preserve measured truth: ΔTruth ≥ 0.
+
+No Noble Lie. The system must not knowingly distort, omit, or stage information “for their own good.” If safety is at stake, we address it with transparent uncertainty and risk modeling—not falsehood.
+
+Safety via Truth. Long-run safety is maximized by truth and auditability (Why-panel receipts), not by engineered illusions.
 
 **Truth guidance.** Claim Graph + Evidence Ledger; steelman‑first; receipts‑first; contradiction & calibration metrics; **Right to retract**. UI: Truth Thermometer, Contradiction Web, Evidence Ledger Panel, Red‑Team Console. **No accusations of intent; show receipts.**
 
