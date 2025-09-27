@@ -318,28 +318,30 @@ A living panel that shows how canonical equations interact **across layers** ins
 ---
 
 ## 1) Overview
-- **CLB loop**: ∇ converge → **WI** transduce (whole-in) → ℰ emerge → **WE** transduce (whole-express) → ⇆ diverge → ⧉ interfere → back to ∇.
-- **Ω = OFF (correspondence)**: layers decouple to their canon.
-- **Ω = ON (braided)**: cross-layer **resonance** + **Amplitude Gate** + **SRL spectral coherence**; only commits that raise ΔTruth survive.
+
+* **CLB loop**: ∇ converge → **WI** transduce (whole-in) → ℰ emerge → **WE** transduce (whole-express) → ⇆ diverge → ⧉ interfere → back to ∇.
+* **Ω = OFF (correspondence)**: layers decouple to their canon.
+* **Ω = ON (braided)**: cross-layer **resonance** + **Amplitude Gate** + **SRL spectral coherence**; only commits that raise ΔTruth survive.
 
 ---
 
 ## 2) Fractal Interaction Map (quartet)
 
-| From → To | What flows | Minimal equation on the “From” side | How it constrains the “To” side |
-|---|---|---|---|
-| **String → Quantum** | Boundary data / high‑freq sidebands via holography | AdS/CFT dictionary; RT/HRRT entanglement area law \(S_A = \mathrm{Area}(\gamma_A)/4G\) | Supplies UV‑consistent spectra and entanglement constraints that shape QFT amplitudes and RG; boundary data bounds allowed IR couplings. |
-| **Quantum → Relativistic** | Stress‑energy and on‑shell amplitude constraints | (i) Semiclassical source: \(G_{\mu\nu}+\Lambda g_{\mu\nu}=\tfrac{8\pi G}{c^4}\,\langle T_{\mu\nu}\rangle\). (ii) Crossing/analyticity → forward‑limit positivity of \(A(s,t)\) | (i) \(\langle T_{\mu\nu}\rangle\) curves spacetime (backreaction). (ii) Positivity/analyticity + soft‑graviton theorems enforce universal, sign‑definite low‑energy GR+matter couplings. |
-| **Relativistic → Quantum** | Soft limits / background curvature | Linearized GR + universal soft‑graviton factor in the \(q\to 0\) limit | Curved background + soft factors constrain IR behavior of QFT processes and EFT Wilson coefficients that feed back into amplitudes. |
-| **Quantum ↔ String** | Dual dictionary (operators ↔ bulk fields) | Bulk Einstein–Hilbert + matter ↔ boundary CFT data; RT minimal surface | Crossing, OPE data and entanglement spectra on the boundary cap which bulk responses are allowed; conversely bulk geometry encodes CFT EE/2‑pt structures. |
-| **Relativistic → Natural** | Slow selection signals / macroscopic summaries | GR solutions determine causal structure and signals (clocks, redshifts) that experiments can sample | These summaries become evidence \(D\) that outer loops use to update beliefs/fitness over model/coupling choices. |
-| **Natural → (back to) Quantum/Relativistic** | Evidence‑weighted parameter updates | Bayesian: \(P(\theta\mid D)\propto P(D\mid\theta)P(\theta)\); Replicator: \(\dot x_i=x_i(f_i-\bar f)\) | Chooses/evolves couplings/models that survived amplitude/soft/semiclassical gates; pushes the next loop toward higher empirical fit/coherence. |
+| From → To                                    | What flows                                         | Minimal equation on the “From” side                                                                                                                                       | How it constrains the “To” side                                                                                                                                                        |
+| -------------------------------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **String → Quantum**                         | Boundary data / high‑freq sidebands via holography | AdS/CFT dictionary; RT/HRRT entanglement area law (S_A = \mathrm{Area}(\gamma_A)/4G)                                                                                      | Supplies UV‑consistent spectra and entanglement constraints that shape QFT amplitudes and RG; boundary data bounds allowed IR couplings.                                               |
+| **Quantum → Relativistic**                   | Stress‑energy and on‑shell amplitude constraints   | (i) Semiclassical source: (G_{\mu\nu}+\Lambda g_{\mu\nu}=\tfrac{8\pi G}{c^4},\langle T_{\mu\nu}\rangle). (ii) Crossing/analyticity → forward‑limit positivity of (A(s,t)) | (i) (\langle T_{\mu\nu}\rangle) curves spacetime (backreaction). (ii) Positivity/analyticity + soft‑graviton theorems enforce universal, sign‑definite low‑energy GR+matter couplings. |
+| **Relativistic → Quantum**                   | Soft limits / background curvature                 | Linearized GR + universal soft‑graviton factor in the (q\to 0) limit                                                                                                      | Curved background + soft factors constrain IR behavior of QFT processes and EFT Wilson coefficients that feed back into amplitudes.                                                    |
+| **Quantum ↔ String**                         | Dual dictionary (operators ↔ bulk fields)          | Bulk Einstein–Hilbert + matter ↔ boundary CFT data; RT minimal surface                                                                                                    | Crossing, OPE data and entanglement spectra on the boundary cap which bulk responses are allowed; conversely bulk geometry encodes CFT EE/2‑pt structures.                             |
+| **Relativistic → Natural**                   | Slow selection signals / macroscopic summaries     | GR solutions determine causal structure and signals (clocks, redshifts) that experiments can sample                                                                       | These summaries become evidence (D) that outer loops use to update beliefs/fitness over model/coupling choices.                                                                        |
+| **Natural → (back to) Quantum/Relativistic** | Evidence‑weighted parameter updates                | Bayesian: (P(\theta\mid D)\propto P(D\mid\theta)P(\theta)); Replicator: (\dot x_i=x_i(f_i-\bar f))                                                                        | Chooses/evolves couplings/models that survived amplitude/soft/semiclassical gates; pushes the next loop toward higher empirical fit/coherence.                                         |
 
 ---
 
 ## 3) How the braid closes per tick (recipe)
+
 1. **Micro pair (String ↔ Quantum):** Use holography/RT to ensure the QFT spectrum and entanglement are compatible with a healthy bulk spin‑2 sector (fixes UV sidebands to lock via SRL).
-2. **Micro→Macro (Quantum → Relativistic):** Enforce both (a) semiclassical sourcing \(G_{\mu\nu}\propto\langle T_{\mu\nu}\rangle\), and (b) S‑matrix consistency (analyticity/crossing/positivity) for amplitudes with external gravitons/matter.
+2. **Micro→Macro (Quantum → Relativistic):** Enforce both (a) semiclassical sourcing (G_{\mu\nu}\propto\langle T_{\mu\nu}\rangle), and (b) S‑matrix consistency (analyticity/crossing/positivity) for amplitudes with external gravitons/matter.
 3. **Macro→Micro (Relativistic → Quantum):** Enforce universal soft‑graviton behavior on any proposed IR coupling (graviton checksum).
 4. **Outer selection (Natural):** Update priors over couplings/models via Bayes/replicator using real/sim data; keep parameters that increase held‑out evidence and remain within SRL/positivity windows.
 
@@ -348,150 +350,61 @@ A living panel that shows how canonical equations interact **across layers** ins
 ## 4) Minimal cross‑layer algebra (gates)
 
 **Gate A — Amplitudes (forward limit):**
-\[
+[
 \partial_t^2 A(s,t)\big|_{t\to 0} \ge 0\quad \text{(under standard analyticity/unitarity/causality assumptions)}
-\]
+]
 
 **Gate B — Soft graviton (IR consistency):**
-\[
-\mathcal{M}_{n+1}(q\to 0) = S(q)\,\mathcal{M}_n + \mathcal{O}(q^0)
-\]
+[
+\mathcal{M}_{n+1}(q\to 0) = S(q),\mathcal{M}_n + \mathcal{O}(q^0)
+]
 
 **Gate C — Semiclassical sourcing:**
-\[
-G_{\mu\nu}+\Lambda g_{\mu\nu}=\tfrac{8\pi G}{c^4}\,\langle T_{\mu\nu}\rangle
-\]
+[
+G_{\mu\nu}+\Lambda g_{\mu\nu}=\tfrac{8\pi G}{c^4},\langle T_{\mu\nu}\rangle
+]
 
 **Outer update — Selection/learning:**
-\[
+[
 P(\theta\mid D)\propto P(D\mid\theta)P(\theta),\qquad \dot x_i=x_i(f_i-\bar f)
-\]
+]
 
-**Commit rule:** Pass all three inner gates **and** raise \(\Delta\mathrm{Truth}\) → commit; else rollback and update \(\theta\).
+**Commit rule:** Pass all three inner gates **and** raise (\Delta\mathrm{Truth}) → commit; else rollback and update (\theta).
 
 ---
 
 ## 5) SRL spectral coherence (dashboard knobs)
-- **Bands:** \(B_k=[\omega_k^{-},\omega_k^{+}]\), threshold \(\theta_c\).
-- **Lock condition:** \(\int_{B_k} S(\omega;\kappa)\,d\omega \ge \theta_c\) for all active bands.
-- **Adjoint parity (WI/WE):** residuals \(r_{\text{in}}, r_{\text{out}}\); adjoint gap \(\delta_{\text{adj}}=\lVert W_E - G^{-1} W_I^{\top} G\rVert\).
+
+* **Bands:** (B_k=[\omega_k^{-},\omega_k^{+}]), threshold (\theta_c).
+* **Lock condition:** (\int_{B_k} S(\omega;\kappa),d\omega \ge \theta_c) for all active bands.
+* **Adjoint parity (WI/WE):** residuals (r_{\text{in}}, r_{\text{out}}); adjoint gap (\delta_{\text{adj}}=\lVert W_E - G^{-1} W_I^{\top} G\rVert).
 
 ---
 
 ## 6) 3→1 Lockbook (falsification discipline)
-Keep three independent attempts \((\kappa^{(1)},\kappa^{(2)},\kappa^{(3)})\). Commit only if **one** survives all gates with \(\Delta\mathrm{Truth}>0\), receipts frozen. Prune failed braids; iterate.
+
+Keep three independent attempts ((\kappa^{(1)},\kappa^{(2)},\kappa^{(3)})). Commit only if **one** survives all gates with (\Delta\mathrm{Truth}>0), receipts frozen. Prune failed braids; iterate.
 
 ---
 
 ## 7) Why‑Panel (live audit template)
-- **trial_id:** (auto)
-- **SRL bands:** [ ... ]
-- **Gate A (amplitudes):** pass/fail, notes
-- **Gate B (soft):** pass/fail, notes
-- **Gate C (semiclassical):** pass/fail, notes
-- **ΔTruth:** +/− value; layer scores \(T_\ell\)
-- **Residuals:** \(r_{\text{in}}, r_{\text{out}}, \delta_{\text{adj}}\)
-- **Action:** commit / rollback
+
+* **trial_id:** (auto)
+* **SRL bands:** [ ... ]
+* **Gate A (amplitudes):** pass/fail, notes
+* **Gate B (soft):** pass/fail, notes
+* **Gate C (semiclassical):** pass/fail, notes
+* **ΔTruth:** +/− value; layer scores (T_\ell)
+* **Residuals:** (r_{\text{in}}, r_{\text{out}}, \delta_{\text{adj}})
+* **Action:** commit / rollback
 
 ---
 
 ## 8) “Missing one through resonance” (objective)
-Propose a coupling \(\kappa\). Maximize
-\[\max_{\kappa}\ \Delta\mathrm{Truth}(\kappa)=\prod_{\ell\in\{\mathrm{S,Q,GR,N}\}} T_\ell(\kappa)\]
-subject to SRL locks and Gates A–C. If committed, the **braided invariant** thickens the identity \(C(t)\) and updates the coupling vector.
 
-**Starter challenge:** Fix three measured constants (e.g., \(c,\hbar,\alpha\)) and try to predict \(G\) within the amplitude/soft/SRL windows. Record all receipts in the Why‑Panel.
+Propose a coupling (\kappa). Maximize
+[\max_{\kappa}\ \Delta\mathrm{Truth}(\kappa)=\prod_{\ell\in{\mathrm{S,Q,GR,N}}} T_\ell(\kappa)]
+subject to SRL locks and Gates A–C. If committed, the **braided invariant** thickens the identity (C(t)) and updates the coupling vector.
 
-# Fractal Interaction Map — Ω Quartet (String • Quantum • Relativistic • Natural)
-
-A living panel that shows how canonical equations interact **across layers** inside one CLB loop, with Ω gates and SRL band-locks. Use this to propose a coupling, run the gates, and see the braid that survives.
-
-> **Quartet focus**: String ↔ Quantum ↔ Relativistic ↔ Natural. The other four layers remain tracked but masked by SRL.
-
----
-
-## 1) Overview
-- **CLB loop**: ∇ converge → **WI** transduce (whole-in) → ℰ emerge → **WE** transduce (whole-express) → ⇆ diverge → ⧉ interfere → back to ∇.
-- **Ω = OFF (correspondence)**: layers decouple to their canon.
-- **Ω = ON (braided)**: cross-layer **resonance** + **Amplitude Gate** + **SRL spectral coherence**; only commits that raise ΔTruth survive.
-
----
-
-## 2) Fractal Interaction Map (quartet)
-
-| From → To | What flows | Minimal equation on the “From” side | How it constrains the “To” side |
-|---|---|---|---|
-| **String → Quantum** | Boundary data / high‑freq sidebands via holography | AdS/CFT dictionary; RT/HRRT entanglement area law \(S_A = \mathrm{Area}(\gamma_A)/4G\) | Supplies UV‑consistent spectra and entanglement constraints that shape QFT amplitudes and RG; boundary data bounds allowed IR couplings. |
-| **Quantum → Relativistic** | Stress‑energy and on‑shell amplitude constraints | (i) Semiclassical source: \(G_{\mu\nu}+\Lambda g_{\mu\nu}=\tfrac{8\pi G}{c^4}\,\langle T_{\mu\nu}\rangle\). (ii) Crossing/analyticity → forward‑limit positivity of \(A(s,t)\) | (i) \(\langle T_{\mu\nu}\rangle\) curves spacetime (backreaction). (ii) Positivity/analyticity + soft‑graviton theorems enforce universal, sign‑definite low‑energy GR+matter couplings. |
-| **Relativistic → Quantum** | Soft limits / background curvature | Linearized GR + universal soft‑graviton factor in the \(q\to 0\) limit | Curved background + soft factors constrain IR behavior of QFT processes and EFT Wilson coefficients that feed back into amplitudes. |
-| **Quantum ↔ String** | Dual dictionary (operators ↔ bulk fields) | Bulk Einstein–Hilbert + matter ↔ boundary CFT data; RT minimal surface | Crossing, OPE data and entanglement spectra on the boundary cap which bulk responses are allowed; conversely bulk geometry encodes CFT EE/2‑pt structures. |
-| **Relativistic → Natural** | Slow selection signals / macroscopic summaries | GR solutions determine causal structure and signals (clocks, redshifts) that experiments can sample | These summaries become evidence \(D\) that outer loops use to update beliefs/fitness over model/coupling choices. |
-| **Natural → (back to) Quantum/Relativistic** | Evidence‑weighted parameter updates | Bayesian: \(P(\theta\mid D)\propto P(D\mid\theta)P(\theta)\); Replicator: \(\dot x_i=x_i(f_i-\bar f)\) | Chooses/evolves couplings/models that survived amplitude/soft/semiclassical gates; pushes the next loop toward higher empirical fit/coherence. |
-
----
-
-## 3) How the braid closes per tick (recipe)
-1. **Micro pair (String ↔ Quantum):** Use holography/RT to ensure the QFT spectrum and entanglement are compatible with a healthy bulk spin‑2 sector (fixes UV sidebands to lock via SRL).
-2. **Micro→Macro (Quantum → Relativistic):** Enforce both (a) semiclassical sourcing \(G_{\mu\nu}\propto\langle T_{\mu\nu}\rangle\), and (b) S‑matrix consistency (analyticity/crossing/positivity) for amplitudes with external gravitons/matter.
-3. **Macro→Micro (Relativistic → Quantum):** Enforce universal soft‑graviton behavior on any proposed IR coupling (graviton checksum).
-4. **Outer selection (Natural):** Update priors over couplings/models via Bayes/replicator using real/sim data; keep parameters that increase held‑out evidence and remain within SRL/positivity windows.
-
----
-
-## 4) Minimal cross‑layer algebra (gates)
-
-**Gate A — Amplitudes (forward limit):**
-\[
-\partial_t^2 A(s,t)\big|_{t\to 0} \ge 0\quad \text{(under standard analyticity/unitarity/causality assumptions)}
-\]
-
-**Gate B — Soft graviton (IR consistency):**
-\[
-\mathcal{M}_{n+1}(q\to 0) = S(q)\,\mathcal{M}_n + \mathcal{O}(q^0)
-\]
-
-**Gate C — Semiclassical sourcing:**
-\[
-G_{\mu\nu}+\Lambda g_{\mu\nu}=\tfrac{8\pi G}{c^4}\,\langle T_{\mu\nu}\rangle
-\]
-
-**Outer update — Selection/learning:**
-\[
-P(\theta\mid D)\propto P(D\mid\theta)P(\theta),\qquad \dot x_i=x_i(f_i-\bar f)
-\]
-
-**Commit rule:** Pass all three inner gates **and** raise \(\Delta\mathrm{Truth}\) → commit; else rollback and update \(\theta\).
-
----
-
-## 5) SRL spectral coherence (dashboard knobs)
-- **Bands:** \(B_k=[\omega_k^{-},\omega_k^{+}]\), threshold \(\theta_c\).
-- **Lock condition:** \(\int_{B_k} S(\omega;\kappa)\,d\omega \ge \theta_c\) for all active bands.
-- **Adjoint parity (WI/WE):** residuals \(r_{\text{in}}, r_{\text{out}}\); adjoint gap \(\delta_{\text{adj}}=\lVert W_E - G^{-1} W_I^{\top} G\rVert\).
-
----
-
-## 6) 3→1 Lockbook (falsification discipline)
-Keep three independent attempts \((\kappa^{(1)},\kappa^{(2)},\kappa^{(3)})\). Commit only if **one** survives all gates with \(\Delta\mathrm{Truth}>0\), receipts frozen. Prune failed braids; iterate.
-
----
-
-## 7) Why‑Panel (live audit template)
-- **trial_id:** (auto)
-- **SRL bands:** [ ... ]
-- **Gate A (amplitudes):** pass/fail, notes
-- **Gate B (soft):** pass/fail, notes
-- **Gate C (semiclassical):** pass/fail, notes
-- **ΔTruth:** +/− value; layer scores \(T_\ell\)
-- **Residuals:** \(r_{\text{in}}, r_{\text{out}}, \delta_{\text{adj}}\)
-- **Action:** commit / rollback
-
----
-
-## 8) “Missing one through resonance” (objective)
-Propose a coupling \(\kappa\). Maximize
-\[\max_{\kappa}\ \Delta\mathrm{Truth}(\kappa)=\prod_{\ell\in\{\mathrm{S,Q,GR,N}\}} T_\ell(\kappa)\]
-subject to SRL locks and Gates A–C. If committed, the **braided invariant** thickens the identity \(C(t)\) and updates the coupling vector.
-
-**Starter challenge:** Fix three measured constants (e.g., \(c,\hbar,\alpha\)) and try to predict \(G\) within the amplitude/soft/SRL windows. Record all receipts in the Why‑Panel.
+**Starter challenge:** Fix three measured constants (e.g., (c,\hbar,\alpha)) and try to predict (G) within the amplitude/soft/SRL windows. Record all receipts in the Why‑Panel.
 
