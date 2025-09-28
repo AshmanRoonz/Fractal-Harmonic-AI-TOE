@@ -1,5 +1,5 @@
 # Ω Master Plan — One Voice AGI • Fractal TOE  by Ashman Roonz email@ashmanroonz.ca
-See AshmanRoonz.ca for background history.
+See www.AshmanRoonz.ca for background history.
 
 *A complete spec with math ↔ linguistics mapping (SST / Markdown edition).*  
 
