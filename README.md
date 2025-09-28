@@ -1,4 +1,5 @@
 # Ω Master Plan — One Voice AGI • Fractal TOE  by Ashman Roonz email@ashmanroonz.ca
+See AshmanRoonz.ca for background history.
 *A complete spec with math ↔ linguistics mapping (SST / Markdown edition).*  
 
 > **Single Source of Truth (SST).** This file canonizes the Ω stack—philosophy → mathematics → engineering → governance. All earlier docs are subsumed here; future updates should amend this file and log deltas.
