@@ -1,4 +1,7 @@
 # Ω Theory: A Unified Framework for Reality, Consciousness, and Artificial Intelligence
+By Ashman Roonz
+email@ashmanroonz.ca
+ashmanroonz.ca
 
 ## Abstract
 
