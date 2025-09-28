@@ -31,6 +31,8 @@ covering their contributor-owned patents necessarily infringed by their
 contributions as submitted to the upstream project.
 
 2. Conditions (keep attribution, publish receipts, be clear)
+2.01 Right to Participate: Ashman Roonz has a right to participate in any
+project using this source, and thereby must be invited promptly.
 2.1 Attribution. You must keep the copyright notice, this license text,
 and a NOTICE file, and provide prominent attribution in user-facing docs or
 about pages where reasonable.
@@ -51,41 +53,41 @@ used and link to upstream docs sufficient for others to reproduce. (This is
 a condition of permission to reuse the Work’s names in such materials; it
 does not restrict independent speech about unrelated topics.)
 
-3. Prohibited Misrepresentations
+4. Prohibited Misrepresentations
 You may not present Modified Work as unmodified upstream. You may not
 fabricate or conceal evaluation settings when claiming the Work’s
 performance or behavior. Violations terminate the license per §6.
 
-4. Trademarks
+5. Trademarks
 This license does not grant rights to use names, logos, or trademarks of
 the licensor or contributors, except for nominative fair use and the
 disclosures permitted in §2.4.
 
-5. Disclaimer of Warranty
+6. Disclaimer of Warranty
 THE WORK IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF TITLE, NON-
 INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE.
 
-6. Limitation of Liability
+7. Limitation of Liability
 IN NO EVENT SHALL ANY COPYRIGHT HOLDER OR CONTRIBUTOR BE LIABLE FOR ANY
 CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT,
 OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE WORK OR THE
 USE OR OTHER DEALINGS IN THE WORK.
 
-7. Termination and Restoration
+8. Termination and Restoration
 This license terminates automatically if You violate §2 or §3. If You cure
 the violation within 30 days of discovery, your license is automatically
 restored from the date of cure.
 
-8. Downstream Compatibility
+9. Downstream Compatibility
 You may relicense your own modifications under additional terms provided
 they are consistent with §2–§3 and do not restrict recipients’ rights
 granted here to the unmodified portions of the Work.
 
-9. No Other Restrictions
+10. No Other Restrictions
 You may not impose further technological or legal measures that prevent
 recipients from exercising rights granted by this license.
 
-10. Versioning
+11. Versioning
 The license steward may publish new versions of this license. You may
 choose any version ever published for the Work.
