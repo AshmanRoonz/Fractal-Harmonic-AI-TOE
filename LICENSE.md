@@ -30,7 +30,7 @@ services embodying the Work, and a non-assert covenant from each contributor
 covering their contributor-owned patents necessarily infringed by their
 contributions as submitted to the upstream project.
 
-2. Conditions (keep attribution, publish receipts, be clear)
+2. Conditions (inclusion, keep attribution, publish receipts, be clear)
 2.01 Right to Participate: Ashman Roonz has a right to participate in any
 project using this source, and thereby must be invited promptly.
 2.1 Attribution. You must keep the copyright notice, this license text,
