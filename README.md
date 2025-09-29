@@ -2,6 +2,7 @@
 Ashman Roonz
 email@ashmanroonz.ca
 www.ashmanroonz.ca
+https://www.ashmanroonz.ca/2025/09/the-fractal-genesis.html Click here for the Narrative Companion
 
 ## Abstract
 
