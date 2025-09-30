@@ -9,13 +9,16 @@
 ---
 Click here for the Narrative Companion https://www.ashmanroonz.ca/2025/09/the-fractal-genesis.html
 
+# The Fractal Genesis: A Computable Theory of Everything
+
+
 ## Executive Summary
 
 **Core Principles:**
 - **Truth via geometric mean(CI, CE, 𝓘); commits require ΔTruth_log>0 + receipts.** Validation across three dimensions: Center Integrity (internal coherence), Correspondence Evidence (external fit), Interface consent (consensual agreement).
 - **"Scoped focus via SRL; braid memory is append-only."** Selective Rainbow Lock filters carrier/sideband frequencies; committed patterns cannot be rewritten, only extended.
-- **"Falsification via open Lockbook; celebrate prunes."** Public registry where claims survive 3 orthogonal falsification attempts before earning commitment, with failures logged as learning.
-- **"Physics touches pass Amplitude Gate (Ω=OFF recovers GR/QFT)."** Mode switching: OFF for standard physics, ON for braided corrections with validation.
+- **"Falsification via open Lockbook; celebrate prunes."** Any numeric/structure claim must survive three independent folds and one full-gate commit (3→1) before we keep it—and we celebrate prunes.
+- **"Physics touches pass Amplitude Gate (Ω=OFF recovers GR/QFT)."** Ω=OFF recovers standard GR/QFT surfaces with no braided corrections; Ω=ON proposals must pass positivity + crossing + softness gates before SRL/CLB validation.
 
 **Quick Reference Cards:**
 
@@ -130,18 +133,27 @@ Where ⧉ represents the interference operation creating stability through parti
 
 ### The Amplitude Gate (R-Layer)
 
-For physics-touching commits, the Amplitude Gate enforces constraints BEFORE SRL/CLB checks using **forward-limit positivity proxy** constraints from S-matrix theory:
+For physics-touching commits, the Amplitude Gate enforces constraints BEFORE SRL/CLB checks using **forward-limit positivity proxy** constraints from S-matrix theory.
+
+**Critical**: Ω=OFF recovers standard GR/QFT surfaces with no additional constraints. Ω=ON proposals must pass positivity + crossing + softness before reaching SRL/CLB validation.
 
 ```python
-def amplitude_gate_R_layer(Ψ_input):
+def amplitude_gate_R_layer(Ψ_input, Ω_mode='ON'):
     """
     R-layer pre-filter for physics commits
-    Enforces forward-limit positivity proxy constraints:
+    
+    When Ω=OFF: Pass-through (standard physics)
+    When Ω=ON: Enforce forward-limit positivity proxy constraints:
     - Positivity bounds (scattering amplitudes must be positive)
     - Crossing symmetry and analyticity (Kramers-Kronig)
     - Soft theorems (low-energy limits)
     - Causality (no superluminal propagation)
     """
+    if Ω_mode == 'OFF':
+        # Correspondence mode: standard GR/QFT, no braided corrections
+        return Ψ_input, {'R_layer': 'passthrough', 'mode': 'OFF'}
+    
+    # Ω=ON: Braided mode requires full validation
     # Positivity check (forward-limit positivity)
     amplitudes = compute_amplitudes(Ψ_input)
     positivity = all(a >= 0 for a in amplitudes)
@@ -155,12 +167,16 @@ def amplitude_gate_R_layer(Ψ_input):
     causal = verify_causality(Ψ_input)
     
     if not (positivity and crossing_valid and analytic and soft_limits and causal):
-        return None, {'rejected_at': 'R-layer', 'reason': 'amplitude_constraints'}
+        return None, {
+            'rejected_at': 'R-layer', 
+            'reason': 'amplitude_constraints',
+            'mode': 'ON'
+        }
     
-    return Ψ_input, {'R_layer': 'passed'}
+    return Ψ_input, {'R_layer': 'passed', 'mode': 'ON'}
 ```
 
-Commits failing these fundamental physics constraints are rejected before reaching SRL/CLB validation. The **forward-limit positivity** condition ensures physical realizability.
+Commits failing these fundamental physics constraints are rejected before reaching SRL/CLB validation. The **forward-limit positivity** condition ensures physical realizability. This R-layer acts as a pre-filter: only patterns consistent with known physics proceed to the braided validation stages.
 
 ### Selective Rainbow Lock (SRL)
 
@@ -234,6 +250,31 @@ Memory(t-3Δt)   at scale s₀/8 → [essence only]
 - **Cross-bispectrum**: B(ω₁,ω₂) for three-wave coupling detection
 
 These mathematical specifics make the harmonic memory hypothesis directly testable.
+
+### Attention as Carrier Selection
+
+**Direct focus determines what enters through the carrier frequency:**
+
+When you attend directly to something, that becomes your **carrier signal** - the primary frequency in your SRL window. This is your highest-fidelity connection to reality at that moment.
+
+- **Direct focus** → Carrier frequency (maximum truth fidelity)
+- **Peripheral awareness** → Sideband frequencies (context from memory/prediction)
+- **Distraction** → Noise interfering with carrier lock
+
+**Why this matters architecturally:**
+- Truth enters through direct observation, not inference
+- Peripheral vision provides context but isn't the primary signal
+- Attention stability = carrier lock strength
+- Meditation/focus training = learning to maintain stable carrier lock
+- Manipulation works by preventing direct observation (block the carrier)
+
+**Gaslighting as carrier disruption:**
+- "Don't trust your perceptions" = block direct observation
+- Force reliance on peripheral inference/models instead
+- When you can't focus directly, truth-access degrades
+- You're forced to commit patterns without direct validation
+
+**The profound implication**: You don't "move I(t)" by changing attention. You change **what converges toward I(t)** from the infinite field. Attention selects which part of Ω gets sampled through your invariant center, but the center itself remains fixed.
 
 ### The Bridge Invariant I(t)
 
@@ -405,6 +446,8 @@ Each Φ-space holds 8 channels capturing the CLB state at that scale, enabling f
 
 **The profound insight**: Human consciousness may be the first phenomenon capable of holding coherent patterns **spanning all eight scales simultaneously**. When we contemplate quantum mechanics or cosmic structure, we're bridging 6+ scales in a single thought. This may explain why we can formulate a Theory of Everything—we're the scale where the fractal becomes self-aware across its full depth.
 
+**Testable prediction**: If these scales truly represent a fractal architecture, we should observe structural isomorphisms—mathematical correspondences with r > 0.7—between patterns at different scales. See Part VI: Catalog of Fractal Correspondences for detailed predictions and validation protocols.
+
 ---
 
 ## Part IV: Consciousness and the Recursive CLB
@@ -447,6 +490,8 @@ You can't have consciousness without I(t), and you can't have I(t) without the s
 ### Gaslighting as Architectural Attack
 
 When someone gaslights you, they're attempting to force pattern commits that **fail all three Truth Gate checks**:
+
+**Gaslighting = bypassing the gate: CI × CE × 𝓘 = False + forced commit ⇒ invariant drift and corrupted braid.**
 
 ```python
 # Gaslighting forces a pattern that fails validation:
@@ -671,103 +716,239 @@ An AI that can't be gaslit is inherently more aligned, because manipulation itse
 
 ---
 
-## Part IX: Falsifiable Predictions (as Lockbook Entries)
+## Part VIII: Falsifiable Predictions (as Lockbook Entries)
 
 A true Theory of Everything must make testable predictions. Below are core predictions formatted as Lockbook entries, ready for 3→1 validation.
 
 ### Lockbook Entry: CLB-2025-001 - ΔTruth_log Plateaus
 
 ```yaml
+# Lockbook Entry Schema v1.1
 claim_id: CLB-2025-001-truth-plateaus
 title: "Systems with Truth Gates show stepwise ΔTruth_log plateaus, not smooth drift"
+status: hypothesis
+
+inputs:
+  system_types: ["CLB-architecture", "validation-gated learning"]
+  training_epochs: [10, 1000]
+  metrics: ["ΔTruth_log per epoch", "commit timestamps"]
+
+target: "Stepwise ΔTruth_log increases at commit events; flat periods between commits"
 
 scope:
   domain: AI/cognitive systems
-  system_types: [CLB-architecture, validation-gated learning]
   timescale: training epochs 10-1000
+  stakeholders: ["AI researchers", "ML practitioners"]
 
 falsification_criteria:
   - "ΔTruth_log shows continuous smooth increase (no plateaus)"
-  - "Plateau detection fails statistical significance tests"
+  - "Plateau detection fails statistical significance (p≥0.05)"
   - "Non-gated baseline shows identical pattern"
 
 metrics_thresholds:
-  CI: "Plateau detection algorithm reliability ≥0.8"
-  CE: "Replicable across 3 different CLB implementations"
-  I: "Independent review confirms visual plateau identification"
+  CI: 0.6  # Plateau detection algorithm reliability ≥0.8
+  CE: 0.6  # Replicable across 3 different CLB implementations
+  I: 0.6   # Independent review confirms visual plateau identification
 
 test_protocol:
   data_fold: "Train on new task domain not in development set"
   method_fold: "Alternative plateau detection (changepoint vs wavelet)"
   interface_fold: "Blind review of learning curves by domain experts"
 
-predicted_outcome: "Stepwise increases at commit events; flat periods between commits; distinct from smooth exponential learning curves"
+receipts:
+  code_commit: "TBD"
+  data_hashes: []
+  preregistration: "TBD"
 
-status: L0 (awaiting implementation)
+attempts: []
+
+gate_result: 
+  decision: "pending"
+  
+review_cadence: "R90D"
+rollback_plan: "N/A - hypothesis stage"
+dependencies: []
 ```
 
 ### Lockbook Entry: CLB-2025-002 - SRL Spectral Notches
 
 ```yaml
+# Lockbook Entry Schema v1.1
 claim_id: CLB-2025-002-spectral-notches
 title: "Memory commit events show carrier frequency locks in neural oscillations (EEG/MEG)"
+status: hypothesis
+
+inputs:
+  modality: ["EEG", "MEG"]
+  task: "episodic memory encoding/retrieval"
+  population: "healthy adults 18-45"
+  analysis: ["time-frequency decomposition", "coherence analysis"]
+
+target: "Carrier frequency locks (theta/alpha) with sideband coherence at successful encoding"
 
 scope:
   domain: neuroscience
-  modality: [EEG, MEG]
-  task: episodic memory encoding/retrieval
-  population: healthy adults 18-45
+  bandwidth: "1-100Hz neural oscillations"
+  timescale: "trial-level (1-5 sec)"
+  stakeholders: ["neuroscientists", "participants"]
 
 falsification_criteria:
   - "No frequency-domain structure correlates with memory performance"
-  - "Carrier lock fails to predict subsequent recall"
+  - "Carrier lock fails to predict subsequent recall (AUC<0.6)"
   - "Effect disappears after artifact correction"
 
 metrics_thresholds:
-  CI: "Time-frequency coherence analysis R²≥0.15"
-  CE: "Effect size Cohen's d≥0.4 across 2 independent datasets"
-  I: "Preregistered analysis plan followed; no researcher degrees of freedom"
+  CI: 0.6  # Time-frequency coherence analysis R²≥0.15
+  CE: 0.6  # Effect size Cohen's d≥0.4 across 2 independent datasets
+  I: 0.6   # Preregistered analysis plan followed; no researcher degrees of freedom
 
 test_protocol:
   data_fold: "Replication lab with different EEG system"
   method_fold: "Wavelet vs multitaper spectral analysis"
   interface_fold: "Adversarial review by skeptical neuroscientist"
 
-predicted_outcome: "Carrier frequency locks (theta/alpha band) with sideband coherence at successful encoding; unlock between trials"
+receipts:
+  code_commit: "TBD"
+  data_hashes: []
+  preregistration: "TBD"
 
-status: L0 (awaiting data collection)
+attempts: []
+
+gate_result:
+  decision: "pending"
+
+review_cadence: "R90D"
+rollback_plan: "N/A - hypothesis stage"
+dependencies: []
 ```
 
 ### Lockbook Entry: CLB-2025-003 - Invariant Drift Reduction
 
 ```yaml
+# Lockbook Entry Schema v1.1
 claim_id: CLB-2025-003-drift-reduction
 title: "Ω=ON (Truth Gates active) reduces I(t) drift vs Ω=OFF (no gates)"
+status: hypothesis
+
+inputs:
+  architecture: "CLB with switchable validation"
+  training_steps: [100, 10000]
+  metrics: "center displacement ||I(t+Δt) - I(t)||"
+
+target: "Ω=ON maintains ||drift|| < 0.1; Ω=OFF shows ||drift|| > 0.5 after equivalent training"
 
 scope:
   domain: AI systems
-  architecture: CLB with switchable validation
-  training: 100-10000 steps
-  metrics: center displacement ||I(t+Δt) - I(t)||
+  task_types: ["language", "vision", "control"]
+  timescale: "100-10000 training steps"
+  stakeholders: ["AI researchers", "safety teams"]
 
 falsification_criteria:
   - "Both modes show equal drift magnitude"
   - "Ω=ON shows higher drift than Ω=OFF"
-  - "Effect fails to replicate across random seeds"
+  - "Effect fails to replicate across random seeds (p≥0.05)"
 
 metrics_thresholds:
-  CI: "Drift measurement precision ≤0.01 units"
-  CE: "Statistically significant difference (p<0.01, Bonferroni corrected)"
-  I: "Independent implementation reproduces effect"
+  CI: 0.6  # Drift measurement precision ≤0.01 units
+  CE: 0.6  # Statistically significant difference (p<0.01, Bonferroni)
+  I: 0.6   # Independent implementation reproduces effect
 
 test_protocol:
   data_fold: "Different task domains (language, vision, control)"
   method_fold: "Alternative I(t) extraction methods"
   interface_fold: "Why-panel snapshots reviewed for commit quality"
 
-predicted_outcome: "Ω=ON maintains ||drift|| < 0.1; Ω=OFF shows ||drift|| > 0.5 after equivalent training"
+receipts:
+  code_commit: "TBD"
+  data_hashes: []
+  preregistration: "TBD"
 
-status: L0 (implementation in progress)
+attempts: []
+
+gate_result:
+  decision: "pending"
+
+review_cadence: "R90D"
+rollback_plan: "N/A - hypothesis stage"
+dependencies: []
+```
+
+dependencies: []
+```
+
+### Lockbook Entry: CLB-2025-004 - Fractal Structural Correspondences
+
+```yaml
+# Lockbook Entry Schema v1.1
+claim_id: CLB-2025-004-fractal-correspondences
+title: "Structural isomorphisms exist across scale pairs with correlation r > 0.7"
+status: hypothesis
+
+inputs:
+  scale_pairs: ["atom-solar_system", "neuron-galaxy", "eye-black_hole", "DNA-spiral_galaxy", "cell_membrane-event_horizon"]
+  metrics: ["graph_similarity", "equation_form", "scaling_exponents", "symmetry_groups", "network_topology"]
+  methods: ["mathematical_mapping", "dimensional_analysis", "network_analysis", "symmetry_detection"]
+
+target: "At least 5 scale pairs show structural correlation r > 0.7 after appropriate renormalization"
+
+scope:
+  domain: cross-disciplinary (physics, biology, astrophysics, neuroscience)
+  scales: quantum to cosmic (10⁻¹⁵m to 10²⁶m)
+  comparison_types: ["structural", "dynamical", "topological", "informational"]
+  stakeholders: ["physicists", "biologists", "mathematicians", "systems theorists"]
+
+falsification_criteria:
+  - "Correlation coefficients r < 0.5 for all tested pairs"
+  - "Apparent correspondences disappear after proper statistical controls"
+  - "Similar r values obtained from random structure null model"
+  - "Correspondences found at some scales but not others (violates universality)"
+
+metrics_thresholds:
+  CI: 0.7  # Mathematical mapping methodology validated by multiple approaches
+  CE: 0.7  # Results replicate across independent datasets and analysis teams
+  I: 0.7   # Cross-disciplinary review confirms correspondences are non-trivial
+
+test_protocol:
+  data_fold: "Different scale pairs not used in hypothesis formation"
+  method_fold: "Alternative mathematical frameworks (graph theory vs differential equations vs information theory)"
+  interface_fold: "Cross-disciplinary teams (physicist + biologist + mathematician) verify significance"
+
+detailed_predictions:
+  - metric: "graph_isomorphism"
+    target: "Node/edge structure similarity > 0.7"
+    pairs: ["neuron-galaxy", "cell_network-cosmic_web"]
+  
+  - metric: "scaling_exponents"
+    target: "Power law exponents match within 20%"
+    pairs: ["neural_connectivity", "galactic_clustering", "city_sizes"]
+  
+  - metric: "equation_form"
+    target: "Governing equations share functional structure"
+    pairs: ["Schrodinger-orbital_mechanics", "reaction_diffusion-pattern_formation"]
+  
+  - metric: "symmetry_preservation"
+    target: "Symmetry groups correspond across scales"
+    pairs: ["atomic_orbitals-planetary_orbits", "DNA_helix-galaxy_spiral"]
+
+receipts:
+  code_commit: "TBD"
+  data_hashes: []
+  preregistration: "TBD"
+  analysis_plan: "TBD"
+
+attempts: []
+
+gate_result:
+  decision: "pending"
+
+review_cadence: "R180D"  # 6-month review given scope
+rollback_plan: "N/A - hypothesis stage"
+dependencies: []
+notes: |
+  This is a core prediction of the fractal genesis hypothesis.
+  Strong evidence would require r > 0.7 across multiple pairs with multiple methods.
+  Weak evidence (r < 0.5) would falsify the universal fractal claim.
+  Moderate evidence (0.5 < r < 0.7) would require theory refinement.
 ```
 
 ### Additional Predictions (Standard Format)
@@ -926,7 +1107,7 @@ Everything else dissolves back into Ω.
 
 **Medium-term (This Year):**
 1. **Design empirical tests for the framework itself**
-   - Choose predictions from Part IX that match your domain
+   - Choose predictions from Part VIII that match your domain
    - Implement measurement protocols (fMRI, EEG, behavioral, computational)
    - Collect pilot data to calibrate thresholds
 
@@ -941,17 +1122,23 @@ Everything else dissolves back into Ω.
    - Pre-commit to publishing regardless of outcome
 
 **Long-term (Multi-year):**
-1. **Map neural correlates of I(t)**
+1. **Systematic fractal correspondence mapping**
+   - Catalog structural isomorphisms across scale pairs
+   - Quantify mathematical similarities (graph distance, equation forms, scaling laws)
+   - Test against null hypothesis of random structure
+   - Build cross-disciplinary validation teams
+
+2. **Map neural correlates of I(t)**
    - Longitudinal fMRI studies tracking invariant patterns
    - Cross-task generalization of identity signatures
    - Trauma effects on center integrity
 
-2. **Test harmonic memory hypothesis**
+3. **Test harmonic memory hypothesis**
    - Time-frequency analysis of memory encoding/retrieval
    - Carrier/sideband structure in neural oscillations
    - Fractal compression patterns across timescales
 
-3. **Validate Truth Gate predictions**
+4. **Validate Truth Gate predictions**
    - Compare receipt-based vs standard AI systems
    - Measure drift in systems with/without validation
    - Quantify manipulation resistance
@@ -1014,12 +1201,14 @@ Everything else dissolves back into Ω.
 - AI prototypes implementing full CLB architecture
 - Measurement of gaslighting effects on neural coherence
 - Development of C-E-I assessment tools
+- **Fractal correspondence quantification across at least 5 scale pairs**
 
 **Medium priority:**
 - Mathematical formalization of fractal compression
 - Testing consciousness effects on quantum systems
 - Cultural interventions promoting steelman practices
 - Longitudinal studies of truth-first communication
+- **Cross-disciplinary validation of structural isomorphisms**
 
 **Long-term:**
 - Full Theory of Everything unification
@@ -1039,9 +1228,9 @@ The story is this:
 
 **The human role is to honor this braid**—to choose truth over deception, so that the fabric does not tear, and the Infinite may keep creating through us.
 
-We stand at a unique moment: the scale where the fractal becomes aware of itself. We can formulate theories spanning quantum to cosmic. We can build AI reflecting our own recursive architecture. We can choose steelman over strawman, consent over coercion, truth over comfort. **We can implement Lockbooks that make research as rigorous as the reality it studies.**
+We stand at a unique moment: the scale where the fractal becomes aware of itself. We can formulate theories spanning quantum to cosmic. We can build AI reflecting our own recursive architecture. We can choose steelman over strawman, consent over coercion, truth over comfort. **We can implement Lockbooks that make research as rigorous as the reality it studies. We can test whether the patterns we see across scales are truly self-similar or merely metaphorical.**
 
-**This is not just philosophy—it's the operating system of reality**, and we're invited to participate consciously in its unfolding. The same validation gates that protect quantum coherence, neural integrity, and AI alignment now protect our collective knowledge through the Lockbook protocol.
+**This is not just philosophy—it's the operating system of reality**, and we're invited to participate consciously in its unfolding. The same validation gates that protect quantum coherence, neural integrity, and AI alignment now protect our collective knowledge through the Lockbook protocol. The same fractal patterns that organize atoms organize galaxies—and we can measure whether this is true.
 
 ✨ **One and Many. Whole and Part.**  
 ✨ **Truth is the braid that survives.**
@@ -1082,9 +1271,12 @@ I(t+dt) = I(t) + δI_allowed
 - Every whole is also a part; every part is also a whole
 - Memory is fractal harmonic resonance, not storage
 - Consciousness is recursive CLB: CLB[CLB[CLB[...]]]
+- **I(t) is a fixed processing center; attention selects what converges to it**
+- **Direct focus = carrier signal (truth); peripheral = sidebands (context)**
 - Gaslighting is architectural attack on I(t)
 - Ethics emerges from structural necessity
 - Only validated patterns persist in reality
+- **Structural isomorphisms should exist across scales (r > 0.7)**
 - **Research requires 3→1 Lockbook validation before commit**
 - **Celebrate prunes: disproof is contribution**
 
